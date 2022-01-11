@@ -6,7 +6,7 @@ By: Kushal Rao
 Last Modified: 1/11/22
 */
 
-//All the Imports
+//Imports
 #include <iostream>
 #include "student.h"
 #include "node.h"

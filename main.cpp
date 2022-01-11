@@ -23,6 +23,6 @@ int main(){//Just walk through pre-defined commands to prove that it works
   one->getStudent();
   one->~Node();
   two->~Node();
-  return 0;
+  return 0;//End program
 }
 

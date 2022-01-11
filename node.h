@@ -3,7 +3,7 @@ This is the .h file for node.cpp
 
 By: Kushal Rao
 
-Last Modified: Kushal Rao
+Last Modified: 1/11/22
 */
 
 //Imports
