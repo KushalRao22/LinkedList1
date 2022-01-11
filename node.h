@@ -5,9 +5,8 @@ using namespace std;
 
 class Node{
  public:
-  Node();
+  Node(Student* student);
   ~Node();
-  void setStudent(char firstName[100], char lastName[100], float gpa, int id);
   Student* getStudent();
   void setNext(Node* newNext);
   Node* getNext();

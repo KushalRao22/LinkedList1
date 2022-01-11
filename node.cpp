@@ -4,18 +4,14 @@
 
 using namespace std;
 
-Node::Node(){
-  s = new Student();
+Node::Node(Student* student){
+  s = student;
   next = NULL;
 }
 
 Node::~Node(){
   delete s;
   next = NULL;
-}
-
-void Node::setStudent(char firstName[100], char lastName[100], float gpa, int id){
-  s->setStudent(firstName, lastName, gpa, id);
 }
 
 Student* Node::getStudent(){
