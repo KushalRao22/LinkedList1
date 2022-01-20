@@ -20,7 +20,7 @@ int main(){//Just walk through pre-defined commands to prove that it works
   Node* two = new Node(s2);
   one->setNext(two);
   one->getNext();
-  one->getStudent();
+  one->getStudent()->printNum();
   one->~Node();
   two->~Node();
   return 0;//End program

@@ -14,3 +14,6 @@ Last Modified: 1/11/22
 
 using namespace std;
 
+void Student::printNum(){
+  cout << num;
+}

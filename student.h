@@ -14,6 +14,11 @@ Last Modified: 1/11/22
 
 using namespace std;
 
-class Student{};
+class Student{
+public:
+  void printNum();
+private:
+    int num = 2;//For testing
+};
 
 #endif
